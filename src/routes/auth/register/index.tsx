@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import { InputGroup } from "../../../components/ui/input-group";
 import { useRegister } from "./use-register";
 import { useState } from "react";
-import { RegisterInputSchema } from "./register.schema";
+import { RegisterInputSchema } from "./register-schema";
 import { formatZodErrors } from "../../../utils/format-zod-errors";
 
 export default function Register() {

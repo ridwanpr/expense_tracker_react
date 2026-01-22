@@ -13,3 +13,18 @@ export type RegisterResponse = {
   };
   accessToken: string;
 };
+
+export type LoginInput = {
+  username: string;
+  password: string;
+};
+
+export type LoginResponse = {
+  message: string;
+  data: {
+    id: number;
+    name: string;
+    username: string;
+  };
+  accessToken: string;
+};
